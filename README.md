@@ -12,5 +12,5 @@ The sixth column is the aspect ratio of inclusions.
 The seventh and eighth column are thermal conductivity and dielectric constant. These are obtained for every microstructure with the help of FFT simulations.
 The ninth column is the hyperelastic parameter and this is obtained by running FE simulations on each simulation using Abaqus CAE subroutines.
 
-The codes have also been made available. The code 'Variational Autoencoder.ipynb' should be run first to obtain the vae data. This is saved as a csv file 'data_vae.csv'.
+The codes have also been made available. The code 'Variational Autoencoder.ipynb' should be run first to obtain the vae data. This is saved as a csv file 'vae_data.csv'.
 This data is then called in 'Main Code.ipynb' which generates accuracy and various plots for the surrogate and inverse model.
